@@ -276,7 +276,7 @@ createObject(5, 1, 3, discoDuroTexture, 'discoDuro');
 disipadorTexture.push(new THREE.MeshBasicMaterial({ map: loader.load('https://raw.githubusercontent.com/andreslopezr/arquitectura-de-computadoras-lab/master/Resources/pc/Disipador/1.png')})); //right
 disipadorTexture.push(new THREE.MeshBasicMaterial({ map: loader.load('https://raw.githubusercontent.com/andreslopezr/arquitectura-de-computadoras-lab/master/Resources/pc/Disipador/2.png')})); //left
 disipadorTexture.push(new THREE.MeshBasicMaterial({ map: loader.load('https://raw.githubusercontent.com/andreslopezr/arquitectura-de-computadoras-lab/master/Resources/pc/Disipador/5.png')})); //top
-disipadorTexture.push(new THREE.MeshBasicMaterial({ map: loader.load('https://raw.githubusercontent.com/andreslopezr/arquitectura-de-computadoras-lab/master/Resources/pc/Disipador/56.png')})); //bottom
+disipadorTexture.push(new THREE.MeshBasicMaterial({ map: loader.load('https://raw.githubusercontent.com/andreslopezr/arquitectura-de-computadoras-lab/master/Resources/pc/Disipador/6.png')})); //bottom
 disipadorTexture.push(new THREE.MeshBasicMaterial({ map: loader.load('https://raw.githubusercontent.com/andreslopezr/arquitectura-de-computadoras-lab/master/Resources/pc/Disipador/3.png')})); //front
 disipadorTexture.push(new THREE.MeshBasicMaterial({ map: loader.load('https://raw.githubusercontent.com/andreslopezr/arquitectura-de-computadoras-lab/master/Resources/pc/Disipador/4.png')})); //back
 //create the disipador object

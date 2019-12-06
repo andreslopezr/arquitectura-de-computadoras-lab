@@ -3,10 +3,110 @@
 body
 {
     margin: 0;
+    
 }
 
 canvas
 {
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
+
+#selector
+{
+    position: absolute;
+    background: #28587B;
+    width: 15%;
+    height: 100%;
+    -webkit-box-shadow: 10px 0px 25px -2px #000000; 
+    box-shadow: 10px 0px 25px -2px #000000;
+    padding: 2% 0 0 2.5%;
+    font-size: 20px;
+    color: #f4f4f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#selector input
+{
+    margin-top: 5%;
+    
+
+}
+
+#info
+{
+    position: absolute;
+    margin-left: 80%;
+    background: #28587b;
+    width: 20%;
+    height: 100%;
+    -webkit-box-shadow: -10px 0px 25px -2px #000000; 
+    box-shadow: -10px 0px 25px -2px #000000;
+}
+
+#info
+{
+    padding: 2% 0 0 2.5%;
+    font-size: 20px;
+    color: #f4f4f9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+input
+{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+input:hover {
+    background: #9faab7;
+  }
+  input:checked {
+    background: #40e0d0;
+  }
+  input:checked::before {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    content: '✔';
+    display: inline-block;
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px;
+  }
+  input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #40e0d0;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  input {
+    border-radius: 50%;
+  }
+  input::after {
+    border-radius: 50%;
+  }
